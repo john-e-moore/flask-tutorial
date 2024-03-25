@@ -1,0 +1,11 @@
+<!-- Extend base template -->
+{% extends "base.html" %} 
+<!-- Override title block, but everything else stays same -->
+{% block title %}Log in{% endblock %}
+{% block content %}
+<h1>This is the login page</h1>
+{% if boolean == True %}
+Yes it is true!
+{% endif %}
+{{ text }}
+{% endblock %}
